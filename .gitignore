@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Checkpoints and model/data caches
+*.pt
+*.bin
+*.safetensors
+*.pkl
+*.npy
+*.npz
+*.gz
+*.zip
+*.tar
+*.cache
+cache/
+data_cache/
+hf_cache/
+
+# Experiment logs and temporary outputs
+tmp/
+tmp_*/
+results/**/ckpt*
+results/**/cache*
+results/**/stdout.log
+results/**/stderr.log
+*.log
+
+# Local manuscript drafts
+*.docx
+~$*.docx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

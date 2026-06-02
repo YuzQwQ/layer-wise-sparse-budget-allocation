@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Layer-wise Sparse Budget Allocation as an Operator-sensitive Design Dimension in Sparse Attention Systems"
+message: "If you use this code or build on this study, please cite the associated paper once available."
+type: software
+authors:
+  - family-names: "Zhang"
+    given-names: "Yu"
+repository-code: "https://github.com/YuzQwQ/layer-wise-sparse-budget-allocation"
+date-released: 2026-06-02
+license: "MIT"
+

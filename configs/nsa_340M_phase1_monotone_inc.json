@@ -1,0 +1,33 @@
+{
+    "_comment": "Phase 1 – layer-aware budget, monotone-increasing profile.",
+    "_comment_detail": [
+        "Hypothesis: deeper layers need more blocks for cross-segment retrieval.",
+        "24 layers, mean=16 blocks (total = 24*16 = 384, preserved for fair comparison).",
+        "Profile: layers 0-5 = 8, layers 6-11 = 12, layers 12-17 = 20, layers 18-23 = 24.",
+        "Mean = (6*8 + 6*12 + 6*20 + 6*24) / 24 = (48+72+120+144)/24 = 384/24 = 16."
+    ],
+    "attention_bias": false,
+    "bos_token_id": 1,
+    "eos_token_id": 2,
+    "fuse_cross_entropy": true,
+    "fuse_norm": true,
+    "hidden_act": "swish",
+    "hidden_size": 1024,
+    "initializer_range": 0.006,
+    "max_position_embeddings": 8192,
+    "model_type": "nsa",
+    "num_heads": 32,
+    "num_kv_heads": 2,
+    "head_dim": 64,
+    "block_size": 64,
+    "block_counts": [8, 8, 8, 8, 8, 8, 12, 12, 12, 12, 12, 12, 20, 20, 20, 20, 20, 20, 24, 24, 24, 24, 24, 24],
+    "window_size": 512,
+    "num_hidden_layers": 24,
+    "norm_eps": 1e-06,
+    "tie_word_embeddings": false,
+    "use_cache": true,
+    "vocab_size": 32000,
+    "budget_mode": "layer_aware",
+    "budget_min_k": 4,
+    "budget_max_k": 32
+}

@@ -1,0 +1,31 @@
+{
+  "_comment": "R6A small NSA 768x16 layer-aware monotone-increasing budget.",
+  "_comment_detail": [
+    "16 layers, mean=16 blocks, matching the uniform baseline average budget.",
+    "Profile: layers 0-3 = 8, layers 4-7 = 12, layers 8-11 = 20, layers 12-15 = 24."
+  ],
+  "attention_bias": false,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "fuse_cross_entropy": true,
+  "fuse_norm": true,
+  "hidden_act": "swish",
+  "hidden_size": 768,
+  "initializer_range": 0.006,
+  "max_position_embeddings": 8192,
+  "model_type": "nsa",
+  "num_heads": 16,
+  "num_kv_heads": 1,
+  "head_dim": 48,
+  "block_size": 64,
+  "block_counts": [8, 8, 8, 8, 12, 12, 12, 12, 20, 20, 20, 20, 24, 24, 24, 24],
+  "window_size": 0,
+  "num_hidden_layers": 16,
+  "norm_eps": 1e-06,
+  "tie_word_embeddings": false,
+  "use_cache": true,
+  "vocab_size": 50304,
+  "budget_mode": "layer_aware",
+  "budget_min_k": 4,
+  "budget_max_k": 32
+}

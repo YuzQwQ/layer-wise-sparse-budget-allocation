@@ -1,0 +1,32 @@
+{
+    "_comment": "R12 matched-compute U-shape layer-aware budget profile.",
+    "_comment_detail": [
+        "This config preserves the U-shape hypothesis while enforcing the same average selected-block budget as the uniform baseline.",
+        "Profile: layers 0-3=20, 4-7=16, 8-15=12, 16-19=16, 20-23=20.",
+        "Check: 4*20 + 4*16 + 8*12 + 4*16 + 4*20 = 384, mean = 16."
+    ],
+    "attention_bias": false,
+    "bos_token_id": 1,
+    "eos_token_id": 2,
+    "fuse_cross_entropy": true,
+    "fuse_norm": true,
+    "hidden_act": "swish",
+    "hidden_size": 1024,
+    "initializer_range": 0.006,
+    "max_position_embeddings": 8192,
+    "model_type": "nsa",
+    "num_heads": 32,
+    "num_kv_heads": 2,
+    "head_dim": 64,
+    "block_size": 64,
+    "block_counts": [20, 20, 20, 20, 16, 16, 16, 16, 12, 12, 12, 12, 12, 12, 12, 12, 16, 16, 16, 16, 20, 20, 20, 20],
+    "window_size": 512,
+    "num_hidden_layers": 24,
+    "norm_eps": 1e-06,
+    "tie_word_embeddings": false,
+    "use_cache": true,
+    "vocab_size": 32000,
+    "budget_mode": "layer_aware",
+    "budget_min_k": 4,
+    "budget_max_k": 32
+}

@@ -1,0 +1,279 @@
+{
+  "input_root": "D:\\develop\\NSA\\results\\round21-phase21-wikitext-static-support",
+  "num_runs": 9,
+  "runs": [
+    {
+      "key": "m0_baseline",
+      "label": "baseline",
+      "run_name": "r21_wiki_m0_baseline_s42",
+      "seed": 42,
+      "config_name": "nsa_340M_baseline.json",
+      "final_val_loss": 4.204387,
+      "final_val_ppl": 66.979503,
+      "test_loss": 4.17701,
+      "test_ppl": 65.170672,
+      "tok_per_s": 14418.1,
+      "cuda_max_memory_allocated_mb": 10921.60791,
+      "cuda_max_memory_reserved_mb": 11514.0,
+      "actual_k_mean": 16.0,
+      "estimated_kv_access_mean": 1024.0,
+      "val_actual_tokens": 247808.0,
+      "test_actual_tokens": 284672.0
+    },
+    {
+      "key": "m0_baseline",
+      "label": "baseline",
+      "run_name": "r21_wiki_m0_baseline_s123",
+      "seed": 123,
+      "config_name": "nsa_340M_baseline.json",
+      "final_val_loss": 4.124614,
+      "final_val_ppl": 61.843955,
+      "test_loss": 4.093712,
+      "test_ppl": 59.962033,
+      "tok_per_s": 14525.58,
+      "cuda_max_memory_allocated_mb": 10921.60791,
+      "cuda_max_memory_reserved_mb": 11514.0,
+      "actual_k_mean": 16.0,
+      "estimated_kv_access_mean": 1024.0,
+      "val_actual_tokens": 247808.0,
+      "test_actual_tokens": 284672.0
+    },
+    {
+      "key": "m0_baseline",
+      "label": "baseline",
+      "run_name": "r21_wiki_m0_baseline_s3407",
+      "seed": 3407,
+      "config_name": "nsa_340M_baseline.json",
+      "final_val_loss": 4.171282,
+      "final_val_ppl": 64.798466,
+      "test_loss": 4.143314,
+      "test_ppl": 63.011283,
+      "tok_per_s": 14465.39,
+      "cuda_max_memory_allocated_mb": 10921.60791,
+      "cuda_max_memory_reserved_mb": 11514.0,
+      "actual_k_mean": 16.0,
+      "estimated_kv_access_mean": 1024.0,
+      "val_actual_tokens": 247808.0,
+      "test_actual_tokens": 284672.0
+    },
+    {
+      "key": "m1_mono_inc",
+      "label": "mono_inc",
+      "run_name": "r21_wiki_m1_mono_inc_s42",
+      "seed": 42,
+      "config_name": "nsa_340M_phase1_monotone_inc.json",
+      "final_val_loss": 4.200016,
+      "final_val_ppl": 66.687373,
+      "test_loss": 4.172357,
+      "test_ppl": 64.868138,
+      "tok_per_s": 14337.12,
+      "cuda_max_memory_allocated_mb": 10926.10791,
+      "cuda_max_memory_reserved_mb": 11522.0,
+      "actual_k_mean": 16.0,
+      "estimated_kv_access_mean": 1024.0,
+      "val_actual_tokens": 247808.0,
+      "test_actual_tokens": 284672.0
+    },
+    {
+      "key": "m1_mono_inc",
+      "label": "mono_inc",
+      "run_name": "r21_wiki_m1_mono_inc_s123",
+      "seed": 123,
+      "config_name": "nsa_340M_phase1_monotone_inc.json",
+      "final_val_loss": 4.186488,
+      "final_val_ppl": 65.791335,
+      "test_loss": 4.153934,
+      "test_ppl": 63.684029,
+      "tok_per_s": 14332.7,
+      "cuda_max_memory_allocated_mb": 10926.10791,
+      "cuda_max_memory_reserved_mb": 11522.0,
+      "actual_k_mean": 16.0,
+      "estimated_kv_access_mean": 1024.0,
+      "val_actual_tokens": 247808.0,
+      "test_actual_tokens": 284672.0
+    },
+    {
+      "key": "m1_mono_inc",
+      "label": "mono_inc",
+      "run_name": "r21_wiki_m1_mono_inc_s3407",
+      "seed": 3407,
+      "config_name": "nsa_340M_phase1_monotone_inc.json",
+      "final_val_loss": 4.18018,
+      "final_val_ppl": 65.377629,
+      "test_loss": 4.153738,
+      "test_ppl": 63.671549,
+      "tok_per_s": 14250.29,
+      "cuda_max_memory_allocated_mb": 10926.10791,
+      "cuda_max_memory_reserved_mb": 11522.0,
+      "actual_k_mean": 16.0,
+      "estimated_kv_access_mean": 1024.0,
+      "val_actual_tokens": 247808.0,
+      "test_actual_tokens": 284672.0
+    },
+    {
+      "key": "m2_mono_dec",
+      "label": "mono_dec",
+      "run_name": "r21_wiki_m2_mono_dec_s42",
+      "seed": 42,
+      "config_name": "nsa_340M_phase1_monotone_dec.json",
+      "final_val_loss": 4.17462,
+      "final_val_ppl": 65.015101,
+      "test_loss": 4.144317,
+      "test_ppl": 63.07455,
+      "tok_per_s": 14318.43,
+      "cuda_max_memory_allocated_mb": 10926.10791,
+      "cuda_max_memory_reserved_mb": 11524.0,
+      "actual_k_mean": 16.0,
+      "estimated_kv_access_mean": 1024.0,
+      "val_actual_tokens": 247808.0,
+      "test_actual_tokens": 284672.0
+    },
+    {
+      "key": "m2_mono_dec",
+      "label": "mono_dec",
+      "run_name": "r21_wiki_m2_mono_dec_s123",
+      "seed": 123,
+      "config_name": "nsa_340M_phase1_monotone_dec.json",
+      "final_val_loss": 4.138298,
+      "final_val_ppl": 62.696001,
+      "test_loss": 4.106968,
+      "test_ppl": 60.762226,
+      "tok_per_s": 14332.47,
+      "cuda_max_memory_allocated_mb": 10926.10791,
+      "cuda_max_memory_reserved_mb": 11524.0,
+      "actual_k_mean": 16.0,
+      "estimated_kv_access_mean": 1024.0,
+      "val_actual_tokens": 247808.0,
+      "test_actual_tokens": 284672.0
+    },
+    {
+      "key": "m2_mono_dec",
+      "label": "mono_dec",
+      "run_name": "r21_wiki_m2_mono_dec_s3407",
+      "seed": 3407,
+      "config_name": "nsa_340M_phase1_monotone_dec.json",
+      "final_val_loss": 4.176215,
+      "final_val_ppl": 65.118912,
+      "test_loss": 4.147818,
+      "test_ppl": 63.295751,
+      "tok_per_s": 14334.2,
+      "cuda_max_memory_allocated_mb": 10926.10791,
+      "cuda_max_memory_reserved_mb": 11524.0,
+      "actual_k_mean": 16.0,
+      "estimated_kv_access_mean": 1024.0,
+      "val_actual_tokens": 247808.0,
+      "test_actual_tokens": 284672.0
+    }
+  ],
+  "groups": [
+    {
+      "key": "m0_baseline",
+      "label": "baseline",
+      "num_runs": 3,
+      "seeds": [
+        42,
+        123,
+        3407
+      ],
+      "run_names": [
+        "r21_wiki_m0_baseline_s42",
+        "r21_wiki_m0_baseline_s123",
+        "r21_wiki_m0_baseline_s3407"
+      ],
+      "val_loss_mean": 4.166761,
+      "val_loss_std": 0.032724,
+      "test_loss_mean": 4.138012,
+      "test_loss_std": 0.034212,
+      "test_ppl_mean": 62.714663,
+      "test_ppl_std": 2.136737,
+      "delta_val_vs_baseline": 0.0,
+      "delta_ppl_vs_baseline": 0.0,
+      "actual_k_mean": 16.0,
+      "estimated_kv_access_mean": 1024.0,
+      "tok_per_s_mean": 14469.69,
+      "tok_per_s_std": 43.983748,
+      "cuda_max_memory_allocated_mb_mean": 10921.60791,
+      "cuda_max_memory_allocated_mb_std": 0.0,
+      "val_actual_tokens": [
+        247808
+      ],
+      "test_actual_tokens": [
+        284672
+      ]
+    },
+    {
+      "key": "m1_mono_inc",
+      "label": "mono_inc",
+      "num_runs": 3,
+      "seeds": [
+        42,
+        123,
+        3407
+      ],
+      "run_names": [
+        "r21_wiki_m1_mono_inc_s42",
+        "r21_wiki_m1_mono_inc_s123",
+        "r21_wiki_m1_mono_inc_s3407"
+      ],
+      "val_loss_mean": 4.188895,
+      "val_loss_std": 0.008275,
+      "test_loss_mean": 4.16001,
+      "test_loss_std": 0.008731,
+      "test_ppl_mean": 64.074572,
+      "test_ppl_std": 0.561159,
+      "delta_val_vs_baseline": -0.022134,
+      "delta_ppl_vs_baseline": -1.359909,
+      "actual_k_mean": 16.0,
+      "estimated_kv_access_mean": 1024.0,
+      "tok_per_s_mean": 14306.703333,
+      "tok_per_s_std": 39.931043,
+      "cuda_max_memory_allocated_mb_mean": 10926.10791,
+      "cuda_max_memory_allocated_mb_std": 0.0,
+      "val_actual_tokens": [
+        247808
+      ],
+      "test_actual_tokens": [
+        284672
+      ]
+    },
+    {
+      "key": "m2_mono_dec",
+      "label": "mono_dec",
+      "num_runs": 3,
+      "seeds": [
+        42,
+        123,
+        3407
+      ],
+      "run_names": [
+        "r21_wiki_m2_mono_dec_s42",
+        "r21_wiki_m2_mono_dec_s123",
+        "r21_wiki_m2_mono_dec_s3407"
+      ],
+      "val_loss_mean": 4.163044,
+      "val_loss_std": 0.01751,
+      "test_loss_mean": 4.133034,
+      "test_loss_std": 0.018487,
+      "test_ppl_mean": 62.377509,
+      "test_ppl_std": 1.145742,
+      "delta_val_vs_baseline": 0.003717,
+      "delta_ppl_vs_baseline": 0.337154,
+      "actual_k_mean": 16.0,
+      "estimated_kv_access_mean": 1024.0,
+      "tok_per_s_mean": 14328.366667,
+      "tok_per_s_std": 7.061692,
+      "cuda_max_memory_allocated_mb_mean": 10926.10791,
+      "cuda_max_memory_allocated_mb_std": 0.0,
+      "val_actual_tokens": [
+        247808
+      ],
+      "test_actual_tokens": [
+        284672
+      ]
+    }
+  ],
+  "decision": {
+    "status": "mono_dec_stronger_or_mixed",
+    "interpretation": "mono_dec is competitive or stronger than mono_inc; monotonic direction is not fully settled on WikiText-103."
+  }
+}
